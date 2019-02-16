@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./svg/iconfont.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的画板</title>
+<canvas id="canvas" width=300 height=300></canvas>
+<div id=actions class="actions">
+  <svg id="pen" class="icon svg-icon active">
+    <use  xlink:href="#icon-pen"></use>
+  </svg>
+  <svg id="eraser" class="icon svg-icon">
+    <use  xlink:href="#icon-eraser"></use>
+  </svg>
+  <svg id="shanchu" class="icon svg-icon">
+    <use  xlink:href="#icon-shanchu"></use>
+  </svg>
+  <svg id="download" class="icon svg-icon">
+    <use  xlink:href="#icon-download"></use>
+  </svg>
+</div>
+<div class="colors"  id="colors">
+  <ul>
+    <li id="balckBg" class="balckBg active"></li>
+    <li id="redBg" class="redBg"></li>
+    <li id="greenBg" class="greenBg"></li>
+    <li id="blueBg" class="blueBg"> </li>
+  </ul>
+</div>
+<script src="./main.js"></script>
+<script src="./svg/iconfont.js"></script>
+
+</html>

@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+}
+
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+#canvas{
+  display: block;
+}
+
+.actions{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.actions > svg {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  transition: all .3s;
+}
+.actions > svg.active {
+  color: red;
+  transform: scale(1.2);
+}
+/*  */
+.colors {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+}
+.colors  li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 1px solid red;
+}
+.colors  li.active {
+  transform: scale(1.2);
+}
+.colors #balckBg{
+  background: black;
+}
+.colors #greenBg{
+  background: green;
+}
+.colors #redBg{
+  background: red;
+}
+.colors #blueBg{
+  background: blue;
+}
