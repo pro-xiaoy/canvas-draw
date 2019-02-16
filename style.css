@@ -1,5 +1,12 @@
 body{
   margin: 0px;
+  overflow: hidden;
+}
+#canvas{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 ul {
   margin: 0;
@@ -16,9 +23,7 @@ ul > li {
   fill: currentColor;
   overflow: hidden;
 }
-#canvas{
-  display: block;
-}
+
 
 .actions{
   position: fixed;
